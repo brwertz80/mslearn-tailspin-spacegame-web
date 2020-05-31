@@ -9,11 +9,7 @@ trigger:
 pool:
   vmImage: 'ubuntu-16.04'
   demands:
-<<<<<<< HEAD
     - npm
-=======
-  - npm
->>>>>>> 86c63466913bfcba15054121dea5e29669737251
 
 variables:
   buildConfiguration: 'Release'
